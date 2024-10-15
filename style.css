@@ -1,0 +1,108 @@
+#firstheading{
+    text-decoration:  underline ;
+    text-decoration-color:red;
+}
+.glow-button {
+    position: relative; /* Keeps button in place */
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #333; /* Button background color */
+    color: white; /* Button text color */
+    font-weight: bolder;
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for button color and shadow */
+}
+
+/* Glow effect using box-shadow */
+.glow-button:hover {
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.5), /* Red glow */
+        0 0 20px rgba(255, 115, 0, 0.5), /* Orange glow */
+        0 0 30px rgba(255, 251, 0, 0.5), /* Yellow glow */
+        0 0 40px rgba(72, 255, 0, 0.5), /* Green glow */
+        0 0 50px rgba(0, 255, 213, 0.5), /* Cyan glow */
+        0 0 60px rgba(0, 43, 255, 0.5), /* Blue glow */
+        0 0 70px rgba(255, 0, 200, 0.5); /* Magenta glow */
+}
+
+/* Keyframes for changing colors */
+@keyframes colorChange {
+    0% { box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.5),
+        0 0 20px rgba(255, 115, 0, 0.5),
+        0 0 30px rgba(255, 251, 0, 0.5),
+        0 0 40px rgba(72, 255, 0, 0.5),
+        0 0 50px rgba(0, 255, 213, 0.5),
+        0 0 60px rgba(0, 43, 255, 0.5),
+        0 0 70px rgba(255, 0, 200, 0.5);
+    }
+    100% { box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.5),
+        0 0 20px rgba(255, 115, 0, 0.5),
+        0 0 30px rgba(255, 251, 0, 0.5),
+        0 0 40px rgba(72, 255, 0, 0.5),
+        0 0 50px rgba(0, 255, 213, 0.5),
+        0 0 60px rgba(0, 43, 255, 0.5),
+        0 0 70px rgba(255, 0, 200, 0.5);
+    }
+}
+
+
+
+
+.glow-buttonpage2{
+    position: relative; /* Keeps button in place */
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #333; /* Button background color */
+    color: white; /* Button text color */
+    font-weight: bolder;
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for button color and shadow */
+}
+
+/* Glow effect using box-shadow */
+.glow-buttonpage2:hover {
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.5), /* Red glow */
+        0 0 20px rgba(255, 115, 0, 0.5), /* Orange glow */
+        0 0 30px rgba(255, 251, 0, 0.5), /* Yellow glow */
+        0 0 40px rgba(72, 255, 0, 0.5), /* Green glow */
+        0 0 50px rgba(0, 255, 213, 0.5), /* Cyan glow */
+        0 0 60px rgba(0, 43, 255, 0.5), /* Blue glow */
+        0 0 70px rgba(255, 0, 200, 0.5); /* Magenta glow */
+}
+
+/* Keyframes for changing colors */
+@keyframes colorChange {
+    0% { box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.5),
+        0 0 20px rgba(255, 115, 0, 0.5),
+        0 0 30px rgba(255, 251, 0, 0.5),
+        0 0 40px rgba(72, 255, 0, 0.5),
+        0 0 50px rgba(0, 255, 213, 0.5),
+        0 0 60px rgba(0, 43, 255, 0.5),
+        0 0 70px rgba(255, 0, 200, 0.5);
+    }
+    100% { box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.5),
+        0 0 20px rgba(255, 115, 0, 0.5),
+        0 0 30px rgba(255, 251, 0, 0.5),
+        0 0 40px rgba(72, 255, 0, 0.5),
+        0 0 50px rgba(0, 255, 213, 0.5),
+        0 0 60px rgba(0, 43, 255, 0.5),
+        0 0 70px rgba(255, 0, 200, 0.5);
+    }
+}
+
+
+
+
+
+
+
+
+
+
